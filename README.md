@@ -14,11 +14,11 @@ This repository contains a starter app ready for you to work on. Feel free to ad
 
 ## Project Starter
 
-Java version: 16 
-Spring version: 2.5.4
-Kafka Version: 2.13 (download: https://kafka.apache.org/quickstart)
-Database: PostgreSQL (Any Version)
-Dependency List:
+* Java version: 16 
+* Spring version: 2.5.4
+* Kafka Version: 2.13 (download: https://kafka.apache.org/quickstart)
+* Database: PostgreSQL (Any Version)
+* Dependency List:
 1. Spring Data JPA
 	* Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
 2. PostgreSQL Driver 
@@ -55,9 +55,9 @@ Flow Details
 3. PPOB Aggregator receives the request and sends a response that the transaction is being processed
 4. PPOB Gateway forwards the response to the H2H client with an additional reference number for the transaction
 
-a. The transaction request has been successfully processed, then PPOB Aggregator makes a callback via Kafka as producer
-b. PPOB Gateway that acts as a subscriber receives the message that has been inputted and then changes the status of the transaction that has occurred
-c. PPOB Gateway forwards the transaction results to the H2H client with API callbacks
+* a. The transaction request has been successfully processed, then PPOB Aggregator makes a callback via Kafka as producer
+* b. PPOB Gateway that acts as a subscriber receives the message that has been inputted and then changes the status of the transaction that has occurred 
+* c. PPOB Gateway forwards the transaction results to the H2H client with API callbacks
 
 
 ## Submission
