@@ -46,7 +46,7 @@ Develop the task with the mindset that it must be ready for production.
 
 ### Design
 
-![alt text](https://github.com/PT-Akar-Inti-Teknologi/test_backend_java/arsitecture.png)
+![alt text](https://github.com/PT-Akar-Inti-Teknologi/test_backend_java/blob/main/architecture.png)
 
 Flow Details
 
